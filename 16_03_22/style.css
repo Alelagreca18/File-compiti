@@ -1,0 +1,74 @@
+body{
+    background-color: rgb(88, 48, 48);
+}
+
+
+#modulo {
+    width: 100%;
+    max-width: 990px;
+    margin: 0 auto;
+    padding: 50px 50px;
+}
+
+#modulo h2{
+    text-align: center;
+    padding-bottom: 20px;
+    font-family: '';
+    color: rgb(179, 113, 37);
+    font-size: 40px;
+}
+
+#modulo .modulo-form {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+#modulo .modulo-form .inputdiv {
+    padding: 50px;
+}
+#modulo .modulo-form .url {
+    width: 100%;
+}
+
+.url {
+    ;
+}
+
+#modulo .modulo-form input[type="name"],
+#modulo .modulo-form input[type="email"]{
+    width: 100%;
+    display: block;
+    background: #fafafa;
+    min-height: 50px;
+    border: none;
+}
+
+#modulo .modulo-form textarea {
+    width: 100%;
+    background: #fafafa;
+    min-height: 100px;
+    display: block;
+    border: none;
+    resize: none;
+
+}
+
+.container {
+    margin: 50px;
+    padding: 25px;
+}
+
+.btn {
+    border: 1px solid #343434;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: "monteserrat";
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+}
+.btn:hover {
+    color: chocolate;
+}
+
