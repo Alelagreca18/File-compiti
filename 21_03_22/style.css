@@ -1,0 +1,53 @@
+/*body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}*/
+
+.titolo {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin-right: 50px;
+}
+
+li {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.btn {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.add {
+    border: 0px;
+    border-radius: 10%;
+    background-color: green;
+    color: white;
+}
+
+.del {
+    border: 0px;
+    border-radius: 10%;
+    background-color: green;
+    color: white;
+}
+
+.up {
+    border: 0px;
+    border-radius: 10%;
+    background-color: green;
+    color: white;
+}
+
+.contactsList {
+    background-color: black;
+    color: white;
+    ;
+}
